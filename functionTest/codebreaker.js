@@ -5,11 +5,12 @@ module.exports={
         var resultado = "";
         var equis="";
         var guiones="";
-        var mensageValidacion=this.validarCadena(cadena);
+        var mensageValidacion=this.validarCadena(cadena); 
         if(mensageValidacion != true){
             return mensageValidacion;
         }
 
+        
         for (i = 0; i < 4; i++){
             for (j = 0; j < 4; j++) {
                 if(clave[i]==cadena[j]){
